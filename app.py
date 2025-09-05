@@ -7,7 +7,7 @@ COFFEE_LINK = "https://www.buymeacoffee.com/samiali"  # <-- replace with your Bu
 
 
 with gr.Blocks(theme=gr.themes.Soft()) as app:
-    title="Twitter Sentiment Analysis",
+    title="Twitter Sentiment Analysis"
     gr.Markdown(
         """
         # 🌟 Twitter Sentiment Analysis  
