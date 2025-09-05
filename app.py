@@ -6,7 +6,7 @@ GITHUB_LINK = "https://github.com/samiali12/twitter-sentiment-analysis"
 COFFEE_LINK = "https://www.buymeacoffee.com/samiali"  # <-- replace with your BuyMeACoffee link
 
 
-with gr.Blocks(theme=gr.themes.Citrus()) as app:
+with gr.Blocks(theme=gr.themes.Soft()) as app:
     title="Twitter Sentiment Analysis",
     gr.Markdown(
         """
