@@ -40,7 +40,7 @@ with gr.Blocks(theme=gr.themes.Soft()) as app:
     )
 
     gr.Markdown("💾 All predictions are stored for analysis.")
-    btn.click(predict_sentiment, inputs=text, outputs=output)
+    btn.click(predict_sentiment, inputs=[text], outputs=[output])
 
 if __name__ == '__main__':
     app.launch(share=True)
