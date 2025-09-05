@@ -1,3 +1,15 @@
+---
+title: Twitter Sentiment Analysis
+emoji: 🌟
+colorFrom: blue
+colorTo: pink
+sdk: gradio
+sdk_version: "4.37.2"
+app_file: app.py
+pinned: false
+---
+
+
 # 🌟 Twitter Sentiment Analysis  
 
 A simple **Sentiment Analysis App** built with **NLTK, NumPy, and Gradio**.  
