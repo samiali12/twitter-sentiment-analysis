@@ -2,7 +2,7 @@ import gradio as gr
 
 from model import predict_sentiment
 
-GITHUB_LINK = "https://github.com/<your-username>/<your-repo>"
+GITHUB_LINK = "https://github.com/samiali12/twitter-sentiment-analysis"
 COFFEE_LINK = "https://www.buymeacoffee.com/samiali"  # <-- replace with your BuyMeACoffee link
 
 
