@@ -14,14 +14,14 @@ with gr.Blocks(theme=gr.themes.Soft()) as app:
         Enter a tweet below and find out if it's **Positive** or **Negative**.  
         _Model: Naive Bayes trained on NLTK Twitter samples_
         """
-    ),
+    )
     with gr.Row():
         with gr.Column():
             text = gr.Textbox(
                 placeholder="Type your tweet here...",
                 lines=3,
                 label="Your Tweet"
-            ),
+            )
             btn = gr.Button("🔍 Analyze Sentiment", variant="primary")
         with gr.Column():
             output = gr.Label(label="Prediction")
