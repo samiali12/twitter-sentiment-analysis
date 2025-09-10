@@ -27,9 +27,9 @@ The model is trained on Twitter samples and classifies tweets as **Positive 😊
 
 ## 📸 Demo
 ![App Screenshot](https://res.cloudinary.com/dcffvppph/image/upload/v1757088119/pp11_kwo7op.png)  
-*(Replace with an actual screenshot of your app)*  
+ 
 
-Try it live: [Gradio Link](#) *(add when deployed)*  
+Try it live: [Gradio Link](https://huggingface.co/spaces/samiali12/twitter-sentiment-analysis) *(add when deployed)*  
 
 ---
 
